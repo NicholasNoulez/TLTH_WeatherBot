@@ -1,0 +1,34 @@
+name: Storm alert check
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 minutes
+  workflow_dispatch: {}
+
+permissions:
+  contents: write   # to remember which alerts were already sent
+
+concurrency:
+  group: storm-alert
+  cancel-in-progress: false
+
+jobs:
+  alert:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python festival_weather.py alert
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_ALERT_CHAT_IDS || secrets.TELEGRAM_CHAT_IDS }}
+      - name: Save alert state
+        run: |
+          git config user.name "weather-bot"
+          git config user.email "weather-bot@users.noreply.github.com"
+          git add state/
+          git diff --cached --quiet || (git commit -m "Update alert state" && git pull --rebase && git push)
