@@ -1,28 +1,28 @@
 {
-  "best": "icon_seamless",
-  "best_name": "DWD ICON",
+  "best": "meteofrance_seamless",
+  "best_name": "Meteo-France ARPEGE",
   "ranking": [
     {
-      "model": "icon_seamless",
-      "name": "DWD ICON",
-      "score": 2.675,
+      "model": "meteofrance_seamless",
+      "name": "Meteo-France ARPEGE",
+      "score": 2.475,
       "overall": {
         "blocks": 2924,
         "days": 731,
-        "ets_rain_2mm": 0.26975228105529214,
-        "ets_heavy_10mm": 0.18281054777405142,
-        "rain_freq_bias": 1.2314814814814814,
-        "gust_mae_kmh": 5.978248974008208,
-        "gust_bias_kmh": -3.90218878248974
+        "ets_rain_2mm": 0.20783844468047918,
+        "ets_heavy_10mm": 0.16862123613312205,
+        "rain_freq_bias": 0.5995370370370371,
+        "gust_mae_kmh": 5.293228454172366,
+        "gust_bias_kmh": 0.31607387140902865
       },
       "season": {
-        "blocks": 732,
-        "days": 183,
-        "ets_rain_2mm": 0.2690833229320828,
-        "ets_heavy_10mm": 0.2344268149584205,
-        "rain_freq_bias": 1.2099447513812154,
-        "gust_mae_kmh": 5.747950819672131,
-        "gust_bias_kmh": -3.477185792349727
+        "blocks": 740,
+        "days": 185,
+        "ets_rain_2mm": 0.3491566265060241,
+        "ets_heavy_10mm": 0.12859161563824775,
+        "rain_freq_bias": 0.8791208791208791,
+        "gust_mae_kmh": 3.9264864864864863,
+        "gust_bias_kmh": -0.8081081081081081
       }
     },
     {
@@ -35,161 +35,161 @@
         "ets_rain_2mm": 0.2465769211533987,
         "ets_heavy_10mm": 0.11121018075707223,
         "rain_freq_bias": 1.1574074074074074,
-        "gust_mae_kmh": 4.294167252283907,
-        "gust_bias_kmh": 2.762614195361911
+        "gust_mae_kmh": 4.292175438596492,
+        "gust_bias_kmh": 2.758771929824561
       },
       "season": {
-        "blocks": 732,
-        "days": 183,
-        "ets_rain_2mm": 0.2663083032214405,
-        "ets_heavy_10mm": 0.18611761902870982,
-        "rain_freq_bias": 0.9834254143646409,
-        "gust_mae_kmh": 4.1180428134556575,
-        "gust_bias_kmh": 2.26697247706422
+        "blocks": 740,
+        "days": 185,
+        "ets_rain_2mm": 0.29855473280399675,
+        "ets_heavy_10mm": 0.07306889352818371,
+        "rain_freq_bias": 0.967032967032967,
+        "gust_mae_kmh": 3.984834834834835,
+        "gust_bias_kmh": 2.5902402402402402
+      }
+    },
+    {
+      "model": "icon_seamless",
+      "name": "DWD ICON",
+      "score": 2.95,
+      "overall": {
+        "blocks": 2924,
+        "days": 731,
+        "ets_rain_2mm": 0.26975228105529214,
+        "ets_heavy_10mm": 0.18281054777405142,
+        "rain_freq_bias": 1.2314814814814814,
+        "gust_mae_kmh": 5.974589603283174,
+        "gust_bias_kmh": -3.9068057455540357
+      },
+      "season": {
+        "blocks": 740,
+        "days": 185,
+        "ets_rain_2mm": 0.31569782884575653,
+        "ets_heavy_10mm": 0.23127392017495896,
+        "rain_freq_bias": 1.3076923076923077,
+        "gust_mae_kmh": 5.839189189189189,
+        "gust_bias_kmh": -3.924324324324324
       }
     },
     {
       "model": "ukmo_seamless",
       "name": "UK Met Office",
-      "score": 3.525,
+      "score": 4.05,
       "overall": {
         "blocks": 2924,
         "days": 731,
         "ets_rain_2mm": 0.2281124993255898,
         "ets_heavy_10mm": 0.10601001669449082,
         "rain_freq_bias": 0.7291666666666666,
-        "gust_mae_kmh": 4.175376196990424,
-        "gust_bias_kmh": 0.2980848153214774
+        "gust_mae_kmh": 4.168091655266758,
+        "gust_bias_kmh": 0.29162106703146373
       },
       "season": {
-        "blocks": 732,
-        "days": 183,
-        "ets_rain_2mm": 0.2460362561800307,
-        "ets_heavy_10mm": 0.18013285957052372,
-        "rain_freq_bias": 0.6408839779005525,
-        "gust_mae_kmh": 4.048360655737705,
-        "gust_bias_kmh": 0.21612021857923497
-      }
-    },
-    {
-      "model": "meteofrance_seamless",
-      "name": "Meteo-France ARPEGE",
-      "score": 3.525,
-      "overall": {
-        "blocks": 2924,
-        "days": 731,
-        "ets_rain_2mm": 0.2072009191748902,
-        "ets_heavy_10mm": 0.16862123613312205,
-        "rain_freq_bias": 0.6018518518518519,
-        "gust_mae_kmh": 5.290047879616963,
-        "gust_bias_kmh": 0.31822845417236656
-      },
-      "season": {
-        "blocks": 732,
-        "days": 183,
-        "ets_rain_2mm": 0.2513358566180563,
-        "ets_heavy_10mm": 0.18977017855582418,
-        "rain_freq_bias": 0.7071823204419889,
-        "gust_mae_kmh": 4.380601092896175,
-        "gust_bias_kmh": -1.4584699453551915
+        "blocks": 740,
+        "days": 185,
+        "ets_rain_2mm": 0.25004524340954337,
+        "ets_heavy_10mm": 0.05692438402718777,
+        "rain_freq_bias": 0.7142857142857143,
+        "gust_mae_kmh": 4.371621621621622,
+        "gust_bias_kmh": 1.6256756756756756
       }
     },
     {
       "model": "ecmwf_aifs025_single",
       "name": "ECMWF AIFS (AI)",
-      "score": 3.925,
+      "score": 4.7,
       "overall": {
-        "blocks": 2458,
-        "days": 614,
-        "ets_rain_2mm": 0.2862781894966189,
-        "ets_heavy_10mm": 0.18114213252520042,
+        "blocks": 2462,
+        "days": 616,
+        "ets_rain_2mm": 0.2864498671230091,
+        "ets_heavy_10mm": 0.1811471364504431,
         "rain_freq_bias": 1.2171837708830548,
         "gust_mae_kmh": null,
         "gust_bias_kmh": null
       },
       "season": {
-        "blocks": 580,
-        "days": 145,
-        "ets_rain_2mm": 0.2828957752407008,
-        "ets_heavy_10mm": 0.2814458533741437,
-        "rain_freq_bias": 1.1578947368421053,
+        "blocks": 468,
+        "days": 117,
+        "ets_rain_2mm": 0.26887519260400616,
+        "ets_heavy_10mm": 0.10920770877944326,
+        "rain_freq_bias": 0.9113924050632911,
         "gust_mae_kmh": null,
         "gust_bias_kmh": null
       }
     },
     {
-      "model": "gfs_seamless",
-      "name": "NOAA GFS",
-      "score": 6.45,
-      "overall": {
-        "blocks": 2924,
-        "days": 731,
-        "ets_rain_2mm": 0.19914808206046408,
-        "ets_heavy_10mm": 0.1089686164510302,
-        "rain_freq_bias": 1.2175925925925926,
-        "gust_mae_kmh": 8.586593707250342,
-        "gust_bias_kmh": -0.7452804377564979
-      },
-      "season": {
-        "blocks": 732,
-        "days": 183,
-        "ets_rain_2mm": 0.2078380536811769,
-        "ets_heavy_10mm": 0.17767792081612824,
-        "rain_freq_bias": 1.138121546961326,
-        "gust_mae_kmh": 8.902185792349727,
-        "gust_bias_kmh": 0.46010928961748637
-      }
-    },
-    {
-      "model": "cma_grapes_global",
-      "name": "CMA GRAPES",
-      "score": 6.6,
-      "overall": {
-        "blocks": 2712,
-        "days": 678,
-        "ets_rain_2mm": 0.1564329403276323,
-        "ets_heavy_10mm": 0.08695030389703254,
-        "rain_freq_bias": 1.7309782608695652,
-        "gust_mae_kmh": 6.809955752212389,
-        "gust_bias_kmh": 5.412979351032448
-      },
-      "season": {
-        "blocks": 562,
-        "days": 140,
-        "ets_rain_2mm": 0.25119612395276064,
-        "ets_heavy_10mm": 0.17545848616205403,
-        "rain_freq_bias": 1.328125,
-        "gust_mae_kmh": 6.664590747330961,
-        "gust_bias_kmh": 5.222953736654804
-      }
-    },
-    {
       "model": "gem_seamless",
       "name": "Canada GEM",
-      "score": 6.925,
+      "score": 6.225,
       "overall": {
         "blocks": 2924,
         "days": 731,
         "ets_rain_2mm": 0.17473741118319433,
         "ets_heavy_10mm": 0.08214230351883428,
         "rain_freq_bias": 0.9050925925925926,
-        "gust_mae_kmh": 6.2506839945280435,
-        "gust_bias_kmh": -3.2270861833105333
+        "gust_mae_kmh": 6.250547195622435,
+        "gust_bias_kmh": -3.2231874145006842
       },
       "season": {
-        "blocks": 732,
-        "days": 183,
-        "ets_rain_2mm": 0.18725994590512093,
-        "ets_heavy_10mm": 0.13443696561760962,
-        "rain_freq_bias": 0.7679558011049724,
-        "gust_mae_kmh": 6.206147540983606,
-        "gust_bias_kmh": -2.106147540983607
+        "blocks": 740,
+        "days": 185,
+        "ets_rain_2mm": 0.1995632108125927,
+        "ets_heavy_10mm": 0.07146753955264593,
+        "rain_freq_bias": 0.967032967032967,
+        "gust_mae_kmh": 5.367162162162162,
+        "gust_bias_kmh": -3.4314864864864867
+      }
+    },
+    {
+      "model": "cma_grapes_global",
+      "name": "CMA GRAPES",
+      "score": 6.75,
+      "overall": {
+        "blocks": 2712,
+        "days": 678,
+        "ets_rain_2mm": 0.1560569147302692,
+        "ets_heavy_10mm": 0.08695030389703254,
+        "rain_freq_bias": 1.733695652173913,
+        "gust_mae_kmh": 6.810619469026549,
+        "gust_bias_kmh": 5.414233038348082
+      },
+      "season": {
+        "blocks": 646,
+        "days": 162,
+        "ets_rain_2mm": 0.24801612651363514,
+        "ets_heavy_10mm": 0.03202846975088968,
+        "rain_freq_bias": 1.3692307692307693,
+        "gust_mae_kmh": 5.836842105263158,
+        "gust_bias_kmh": 4.629411764705882
+      }
+    },
+    {
+      "model": "gfs_seamless",
+      "name": "NOAA GFS",
+      "score": 7.0,
+      "overall": {
+        "blocks": 2924,
+        "days": 731,
+        "ets_rain_2mm": 0.1982018165322786,
+        "ets_heavy_10mm": 0.1089686164510302,
+        "rain_freq_bias": 1.2222222222222223,
+        "gust_mae_kmh": 8.590526675786593,
+        "gust_bias_kmh": -0.7492134062927496
+      },
+      "season": {
+        "blocks": 740,
+        "days": 185,
+        "ets_rain_2mm": 0.23647254332621118,
+        "ets_heavy_10mm": -0.0071289695398574215,
+        "rain_freq_bias": 1.3406593406593406,
+        "gust_mae_kmh": 9.19837837837838,
+        "gust_bias_kmh": 1.3313513513513515
       }
     },
     {
       "model": "jma_seamless",
       "name": "JMA GSM",
-      "score": 8.525,
+      "score": 8.0,
       "overall": {
         "blocks": 2924,
         "days": 731,
@@ -200,11 +200,11 @@
         "gust_bias_kmh": null
       },
       "season": {
-        "blocks": 732,
-        "days": 183,
-        "ets_rain_2mm": 0.20025362760638948,
-        "ets_heavy_10mm": 0.14594069032571708,
-        "rain_freq_bias": 1.6961325966850829,
+        "blocks": 740,
+        "days": 185,
+        "ets_rain_2mm": 0.25091984578279314,
+        "ets_heavy_10mm": -0.002257336343115124,
+        "rain_freq_bias": 1.4725274725274726,
         "gust_mae_kmh": null,
         "gust_bias_kmh": null
       }
@@ -212,15 +212,15 @@
   ],
   "skipped": {},
   "period": [
-    "2024-10-24",
-    "2026-10-24"
+    "2024-10-25",
+    "2026-10-25"
   ],
   "season_months": [
-    9,
     10,
-    11
+    11,
+    12
   ],
   "truth": "ERA5 reanalysis (Open-Meteo archive)",
   "method": "6-hour blocks; ETS for rain >=2 mm and >=10 mm, MAE of max gust; rank-weighted 35/25/40, half full period, half current season",
-  "computed_at": "2026-10-31T14:35:30Z"
+  "computed_at": "2026-11-01T23:28:11Z"
 }
